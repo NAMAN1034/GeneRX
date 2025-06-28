@@ -1,4 +1,5 @@
-GeneRX
+#GeneRX
+
 A full-stack pharmacogenomics web application for personalized health insights based on SNP data. Built for the Congressional App Challenge.
 Features
 
@@ -12,10 +13,10 @@ Responsive design with six pages: Welcome, Upload, Report, Crash Course, Fun Fac
 Setup
 
 Clone the repository.
-Install frontend dependencies:npm install
+Install frontend dependencies: npm install
 
 
-Initialize TailwindCSS:npx tailwindcss init -p
+Initialize TailwindCSS: npx tailwindcss init -p
 
 
 Install backend dependencies:cd server
