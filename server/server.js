@@ -15,7 +15,7 @@ app.use(express.json());
 const PHARMGKB_API_BASE = 'https://api.pharmgkb.org/v1/data';
 const API_KEY = process.env.PHARMGKB_API_KEY;
 
-// Mock data as fallback
+// Mock data as backup if no API Key is provided
 const mockData = {
   pharmacogenes: [
     {
